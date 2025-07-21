@@ -1,0 +1,28 @@
+html 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Olá, Mundo!</title>
+</head>
+<body>
+
+<h2>Digite seu nome:</h2>
+
+<input type="text" id="nome"
+placeholder="Seu nome aqui">
+<button onclick="Mostrar Mensagem( )">Enviar</button>
+
+<p id="mensagem"></p>
+
+<script>
+<function Mostrar Mensagem( ) { var nome = document . getElementBy
+Id( 'nome' ) . Value; 
+if( nome . trim( ) === ' ' ) { alert( 'Por favor, digite seu nome!' ) ; 
+  } else { 
+         document . getElementById( 'mensagem' ) . innerText = 'Olá, ' + nome + ' ! Seja bem-vindo(a)! ' ; 
+   } 
+  }
+</script>
+
+</body>
+</html>
